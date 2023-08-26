@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(228, 193, 150);
+    height: 100%;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    color: brown;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin: auto;
+    padding-top: 4rem;
+}
+.card{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(170, 140, 91);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 10px black;
+    margin-bottom: 3rem;
+}
+.card:hover{
+    background-color: rgb(168, 116, 49);
+    scale: 1.025;
+    transition-duration: 300ms;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.cardimg{
+   width: 15rem;
+   height: 20rem;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    padding-bottom: 10rem;
+    justify-content: space-between;
+}
+@media screen and (max-width: 700px) {
+    .bottom{
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .address{
+        padding-left: 20%;
+        margin-bottom: 2rem;
+    }
+    h4{
+        text-align: center;
+        font-size: 10px;
+    }
+  }
+
+h4{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.address{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+    margin-left: 15%;
+}
+.email{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-right: 3rem;
+}
