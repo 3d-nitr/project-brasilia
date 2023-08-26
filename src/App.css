@@ -1,1 +1,3 @@
-/* tailwind dependency needed */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
