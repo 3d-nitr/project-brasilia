@@ -1,14 +1,14 @@
 import React from "react";
-import Spinner from "../components/Home-comps/Spinner.js";
-import TopBar from "../components/Home-comps/TopBar";
-import HomeNavbar from "../components/Home-comps/Navbar";
-import HeroSection from "../components/Home-comps/HeroSection";
-import AboutSection from "../components/Home-comps/AboutSection";
-import FeesSection from "../components/Home-comps/FeesSection";
-import ProcessSection from "../components/Home-comps/ProcessSection";
-import TeamSection from "../components/Home-comps/TeamSection";
-import TestimonialSection from "../components/Home-comps/TestimonialSection";
-import FooterSection from "../components/Home-comps/FooterSection";
+import Spinner from "../components/Spinner";
+import TopBar from "../components/TopBar";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import AboutSection from "../components/AboutSection";
+import FeesSection from "../components/FeesSection";
+import ProcessSection from "../components/ProcessSection";
+import TeamSection from "../components/TeamSection";
+import TestimonialSection from "../components/TestimonialSection";
+import FooterSection from "../components/FooterSection";
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Spinner />
       <TopBar />
       <div class="container-fluid position-relative p-0">
-        <HomeNavbar />
+        <Navbar />
         <HeroSection />
       </div>
       <AboutSection />

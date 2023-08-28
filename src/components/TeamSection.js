@@ -1,9 +1,4 @@
 import React from "react";
-import team_1 from "../../assets/team-1.jpg"
-import team_2 from "../../assets/team-2.jpg"
-import team_3 from "../../assets/team-3.jpg"
-import team_4 from "../../assets/team-4.jpg"
-
 
 const TeamSection = () => {
   return (
@@ -19,7 +14,7 @@ const TeamSection = () => {
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="team-item">
               <div class="overflow-hidden">
-                <img class="img-fluid" src={team_1} alt="" />
+                <img class="img-fluid" src="img/team-1.jpg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -44,7 +39,7 @@ const TeamSection = () => {
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="team-item">
               <div class="overflow-hidden">
-                <img class="img-fluid" src={team_2} alt="" />
+                <img class="img-fluid" src="img/team-2.jpg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -69,7 +64,7 @@ const TeamSection = () => {
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="team-item">
               <div class="overflow-hidden">
-                <img class="img-fluid" src={team_3} alt="" />
+                <img class="img-fluid" src="img/team-3.jpg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -94,7 +89,7 @@ const TeamSection = () => {
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
             <div class="team-item">
               <div class="overflow-hidden">
-                <img class="img-fluid" src={team_4} alt="" />
+                <img class="img-fluid" src="img/team-4.jpg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
