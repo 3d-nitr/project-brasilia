@@ -1,10 +1,4 @@
 import React from "react";
-import bg_hero from "../../assets/bg-hero.png"
-import booking from "../../assets/booking.jpg"
-import des_1 from "../../assets/destination-1.jpg"
-import des_2 from "../../assets/destination-2.jpg"
-import des_3 from "../../assets/destination-3.jpg"
-import des_4 from "../../assets/destination-4.jpg"
 
 const AboutSection = () => {
   return (
@@ -19,7 +13,7 @@ const AboutSection = () => {
             <div class="position-relative h-100">
               <img
                 class="img-fluid position-absolute w-100 h-100"
-                src={bg_hero}
+                src="img/bg-hero.png"
                 alt=""
                 style={{ "object-fit": "cover" }}
               />

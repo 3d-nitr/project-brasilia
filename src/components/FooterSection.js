@@ -1,7 +1,4 @@
 import React from "react";
-import pack1 from "../../assets/package-1.jpg"
-import pack2 from "../../assets/package-2.jpg"
-import pack3 from "../../assets/package-3.jpg"
 
 const FooterSection = () => {
   return (
@@ -61,42 +58,42 @@ const FooterSection = () => {
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack1}
+                  src="img/package-1.jpg"
                   alt=""
                 />
               </div>
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack2}
+                  src="img/package-2.jpg"
                   alt=""
                 />
               </div>
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack3}
+                  src="img/package-3.jpg"
                   alt=""
                 />
               </div>
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack2}
+                  src="img/package-2.jpg"
                   alt=""
                 />
               </div>
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack3}
+                  src="img/package-3.jpg"
                   alt=""
                 />
               </div>
               <div class="col-4">
                 <img
                   class="img-fluid bg-light p-1"
-                  src={pack1}
+                  src="img/package-1.jpg"
                   alt=""
                 />
               </div>

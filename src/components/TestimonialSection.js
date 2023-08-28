@@ -1,8 +1,4 @@
 import React from "react";
-import testi_1 from "../../assets/testimonial-1.jpg"
-import testi_2 from "../../assets/testimonial-2.jpg"
-import testi_3 from "../../assets/testimonial-3.jpg"
-import testi_4 from "../../assets/testimonial-4.jpg"
 
 const TestimonialSection = () => {
   return (
@@ -18,7 +14,7 @@ const TestimonialSection = () => {
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src={testi_1}
+              src="img/testimonial-1.jpg"
               style={{ width: "80px", height: "80px" }}
               alt=""
             />
@@ -32,7 +28,7 @@ const TestimonialSection = () => {
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src={testi_2}
+              src="img/testimonial-2.jpg"
               style={{ width: "80px", height: "80px" }}
               alt=""
             />
@@ -46,7 +42,7 @@ const TestimonialSection = () => {
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src={testi_3}
+              src="img/testimonial-3.jpg"
               style={{ width: "80px", height: "80px" }}
               alt=""
             />
@@ -60,7 +56,7 @@ const TestimonialSection = () => {
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src={testi_4}
+              src="img/testimonial-4.jpg"
               style={{ width: "80px", height: "80px" }}
               alt=""
             />
