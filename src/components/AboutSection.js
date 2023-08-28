@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div class="container-xxl py-5">
+    <div id="about-section" class="container-xxl py-5">
       <div class="container">
         <div class="row g-5">
           <div
