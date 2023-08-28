@@ -1,7 +1,7 @@
 import React from "react";
 import Spinner from "../components/Spinner";
 import TopBar from "../components/TopBar";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/marginals/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import FeesSection from "../components/FeesSection";
@@ -19,7 +19,7 @@ const HomePage = () => {
         <Navbar />
         <HeroSection />
       </div>
-      <AboutSection />
+      <AboutSection id='about-section'/>
       <FeesSection />
       <ProcessSection />
       <TeamSection />

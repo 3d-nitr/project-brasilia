@@ -16,17 +16,17 @@ const table = () => {
       <td>Indian nationals</td>
       <td />
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Students</td>
       <td>Rs. 3500 (including GST)</td>
       <td>Rs. 4000/- (including GST)</td>
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Academicians</td>
       <td>Rs. 5500/- (including GST)</td>
       <td>Rs. 6000/- (including GST)</td>
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Industrialists/ R&amp;Ds</td>
       <td>Rs. 6500/- (including GST)</td>
       <td>Rs. 7000/- (including GST)</td>
@@ -36,17 +36,17 @@ const table = () => {
       <td>Foreign nationals/Exchange participants</td>
       <td />
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Students</td>
       <td>100 USD</td>
       <td>120 USD</td>
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Academicians</td>
       <td>200 USD</td>
       <td>250 USD</td>
     </tr>
-    <tr className="row">
+    <tr className="table-row">
       <td>Industrialists/ R&amp;Ds</td>
       <td>350 USD</td>
       <td>400 USD</td>
