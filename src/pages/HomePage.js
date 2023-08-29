@@ -1,7 +1,5 @@
 import React from "react";
 import Spinner from "../components/Spinner";
-import TopBar from "../components/TopBar";
-import Navbar from "../components/marginals/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import FeesSection from "../components/FeesSection";
@@ -14,12 +12,10 @@ const HomePage = () => {
   return (
     <>
       <Spinner />
-      <TopBar />
       <div class="container-fluid position-relative p-0">
-        <Navbar />
         <HeroSection />
       </div>
-      <AboutSection id='about-section'/>
+      <AboutSection id="about-section" />
       <FeesSection />
       <ProcessSection />
       <TeamSection />
